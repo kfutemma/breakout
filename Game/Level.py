@@ -4,33 +4,25 @@ import pygame
 
 from Game.Bricks import *
 from Game.Shared.GameConstants import GameConstants
-
-
 class Level:
 
     def __init__(self, game):
-
         self.__game = game
         self.__bricks = []
         self.__amountOfBricksLeft = 0
         self.__currentLevel = 0
 
-
     def getBricks(self):
         return self.__bricks
-
 
     def getAmountOfBricksLeft(self):
         return self.__amountOfBricksLeft
 
-
     def brickHit(self):
         self.__amountOfBricksLeft -= 1
 
-
     def loadNextLevel(self):
         pass
-
 
     def load(self, level):
         self.__currentLevel = level
@@ -38,7 +30,9 @@ class Level:
 
         x, y = 0, 0
 
-        for line in fileinput.input(os.path.join("Assets", "Levels", "level" + str(level) + ".dat")):
+        path = os.path.join("Assets", "Levels", "level" + str(level) + ".dat")
+
+        for line in fileinput.input(path):
             for currentBrick in line:
                 if currentBrick == "1":
                     brick = Brick([x, y], pygame.image.load(GameConstants.SPRITE_BRICK), self.__game)

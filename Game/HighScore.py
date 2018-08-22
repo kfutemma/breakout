@@ -2,11 +2,11 @@
 class HighScore:
 
     def __init__(self):
-        pass
+        self.__highscore = self.load()
 
 
     def getScore(self):
-        pass
+        return self.__highscore
 
 
     def load(self):
