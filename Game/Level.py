@@ -70,7 +70,7 @@ class Level:
         for rows in range(0, rows):
             for brick in range(0, maxBricks):
                 brickType = random.randint(0,3)
-                if brickType == 1 or amountOfSuperPowerBricks >= 5 :
+                if brickType == 1 or amountOfSuperPowerBricks >= 5:
                     brick = Brick([x, y], pygame.image.load(GameConstants.SPRITE_BRICK), self.__game)
                     self.__bricks.append(brick)
                     self.__amountOfBricksLeft += 1

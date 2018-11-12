@@ -28,4 +28,4 @@ class Brick(GameObject):
 
 
     def getHitSound(self):
-        pass
+        return GameConstants.SOUND_HIT_BRICK
