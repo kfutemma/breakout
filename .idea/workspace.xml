@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e941cf-23bb-4f60-8e17-d2b98c908cf8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Breakout.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Breakout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Bricks/Brick.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Bricks/Brick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Bricks/LifeBrick.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Bricks/LifeBrick.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Bricks/SpeedBrick.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Bricks/SpeedBrick.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Scenes/MenuScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Scenes/MenuScene.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Shared/GameConstants.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Shared/GameConstants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/highscore.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Game/highscore.dat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +47,8 @@
       <file leaf-file-name="Breakout.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game/Breakout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="330">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -65,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuScene.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MenuScene.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game/Scenes/MenuScene.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="440">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -80,8 +71,8 @@
       <file leaf-file-name="PlayingGameScene.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+            <state relative-caret-position="264">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -125,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Level.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Game/Level.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="162">
+              <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -186,13 +177,13 @@
         <option value="$PROJECT_DIR$/Game/Bricks/Brick.py" />
         <option value="$PROJECT_DIR$/Game/Bricks/LifeBrick.py" />
         <option value="$PROJECT_DIR$/Game/Bricks/SpeedBrick.py" />
-        <option value="$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py" />
         <option value="$PROJECT_DIR$/Game/Ball.py" />
-        <option value="$PROJECT_DIR$/Game/Level.py" />
-        <option value="$PROJECT_DIR$/Game/Breakout.py" />
         <option value="$PROJECT_DIR$/Game/Shared/GameConstants.py" />
         <option value="$PROJECT_DIR$/exerc.py" />
         <option value="$PROJECT_DIR$/Game/Scenes/MenuScene.py" />
+        <option value="$PROJECT_DIR$/Game/Breakout.py" />
+        <option value="$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py" />
+        <option value="$PROJECT_DIR$/Game/Level.py" />
       </list>
     </option>
   </component>
@@ -674,37 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Game/Ball.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2068">
           <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Level.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/Breakout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,10 +696,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Game/Scenes/MenuScene.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="440">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/Breakout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/Scenes/PlayingGameScene.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/Level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="85" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
