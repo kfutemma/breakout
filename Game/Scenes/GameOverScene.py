@@ -16,7 +16,7 @@ class GameOverScene(Scene):
         self.getGame().screen.blit(self.__highscoreSprite, (50, 50))
 
         self.clearText()
-        self.addText("Your name: ", 300, 200, size=30)
+        self.addText("Seu nome: ", 300, 200, size=30)
         self.addText(self.__playerName, 420, 200, size=30)
         super(GameOverScene, self).render()
 

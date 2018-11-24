@@ -25,7 +25,7 @@ class HighscoreScene(Scene):
 
             y += 30
 
-        self.addText("Pressiona F1 para começar um novo jogo", x, y + 60, size = 30)
+        self.addText("Pressionar F1 para começar um novo jogo", x, y + 60, size = 30)
 
         super(HighscoreScene, self).render()
 

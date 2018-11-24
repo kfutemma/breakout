@@ -62,12 +62,12 @@ class PlayingGameScene(Scene):
 
         self.clearText()
 
-        self.addText("Your Score: " + str(game.getScore()),
+        self.addText("Pontuação: " + str(game.getScore()),
                      x = 0,
                      y = GameConstants.SCREEN_SIZE[1] - 60, size = 30)
 
 
-        self.addText("Lives: " + str(game.getLives()),
+        self.addText("Vidas: " + str(game.getLives()),
                      x = 0,
                      y = GameConstants.SCREEN_SIZE[1] - 30, size = 30)
 
